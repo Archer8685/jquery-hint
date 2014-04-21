@@ -1,5 +1,7 @@
 Hint v1.0
 ============
+##Demos & Examples
+[Demos](http://archerhsieh.webuda.com/jquery-hint/examples/)
 
 ## News
 21/04/2014:release.
