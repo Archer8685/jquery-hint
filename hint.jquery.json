@@ -1,12 +1,14 @@
 {
   "name": "hint",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "title": "Hint",
   "description": "A jQuery plugin that add hint to input or textarea.",
   "keywords": [
     "jquery",
     "plugin",
     "hint",
+    "input",
+    "textarea"
   ],
   "homepage": "https://github.com/Archer8685/jquery-hint",
   "author": {
