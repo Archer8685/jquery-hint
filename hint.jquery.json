@@ -1,0 +1,28 @@
+{
+  "name": "hint",
+  "version": "1.0.0",
+  "title": "Hint",
+  "description": "A jQuery plugin that add hint to input or textarea.",
+  "keywords": [
+    "jquery",
+    "plugin",
+    "hint",
+  ],
+  "homepage": "https://github.com/Archer8685/jquery-hint",
+  "author": {
+    "name": "Archer Hsieh",
+    "url": "http://archerhsieh.webuda.com/"
+  },
+  "bugs": "https://github.com/Archer8685/jquery-hint/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Archer8685/jquery-hint/blob/master/LICENSE.md"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.91"
+  },
+  "docs": "https://github.com/Archer8685/jquery-hint/blob/master/README.md",
+  "demo": "http://archerhsieh.webuda.com/jquery-hint/examples/"
+}
