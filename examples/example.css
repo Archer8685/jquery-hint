@@ -1,0 +1,23 @@
+body, html {
+  line-height: 2em;
+}
+
+form div.field {
+  margin-top: 1em;
+}
+
+form div.field span {
+  font-size: 1em;
+  width: 80px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+form div.field input, form div.field textarea {
+  padding-left: .2em;
+}
+
+form input[type=submit] {
+  margin-top: 1em;
+  margin-left: 180px;
+}
