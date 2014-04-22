@@ -1,4 +1,4 @@
-Hint v1.0
+Hint v0.1.0
 ============
 ##Demos & Examples
 [Demos](http://archerhsieh.webuda.com/jquery-hint/examples/)
