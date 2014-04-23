@@ -1,7 +1,7 @@
 Hint v0.1.0
 ============
 ##Demos & Examples
-[Demos](http://archerhsieh.webuda.com/jquery-hint/examples/)
+[Demos](http://archerproxyserver.appspot.com/jquery-hint/examples/index.html)
 
 ## News
 21/04/2014:release.
