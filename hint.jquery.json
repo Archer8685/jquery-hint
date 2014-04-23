@@ -1,6 +1,6 @@
 {
   "name": "hint",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "title": "Hint",
   "description": "A jQuery plugin that add hint to input or textarea.",
   "keywords": [
