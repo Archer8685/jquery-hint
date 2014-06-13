@@ -4,6 +4,7 @@ Hint v0.1.1
 [Demos](http://archerproxyserver.appspot.com/jquery-hint/examples/index.html)
 
 ## News
+13/06/2014:remove initStyle, hintStyle options and add hintClass option.
 21/04/2014:release.
 
 ## How to Use It
@@ -21,8 +22,7 @@ just add `shuttle_select` in class and set `multiple` to your select.
 ```
 ## API
 ### Options
-- `initStyle` <br/>initial text css style.
-- `hintStyle` <br/>hint text css style.
+- `hintClass` <br/>hint text class.
 
 ### Events
 - `onFocus` <br/>element focus event.

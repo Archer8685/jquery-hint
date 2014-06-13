@@ -21,3 +21,7 @@ form input[type=submit] {
   margin-top: 1em;
   margin-left: 180px;
 }
+
+.hint {
+  color: #e1e1e1;
+}

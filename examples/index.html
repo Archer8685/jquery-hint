@@ -44,7 +44,9 @@
           $("#hintForm").before("<h3>DATA</h3>" + p);
         }
         
-        $("input, textarea").hint();
+        $("input, textarea").hint({
+          hintClass: "hint"
+        });
       });
     </script>
 </head>
