@@ -4,8 +4,8 @@ Hint v0.2.0
 [Demos](http://archerproxyserver.appspot.com/jquery-hint/examples/index.html)
 
 ## News
-13/06/2014:remove initStyle, hintStyle options and add hintClass option.
-21/04/2014:release.
+-13/06/2014:remove initStyle, hintStyle options and add hintClass option.
+-21/04/2014:release.
 
 ## How to Use It
 ###javascript
