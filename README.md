@@ -1,4 +1,4 @@
-Hint v0.2.0
+Hint v0.2.1
 ============
 ##Demos & Examples
 [Demos](http://archerproxyserver.appspot.com/jquery-hint/examples/index.html)

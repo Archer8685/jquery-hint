@@ -1,5 +1,41 @@
 body, html {
-  line-height: 2em;
+  margin: 0;
+  background: #666;
+}
+
+body {
+  padding: 1em;
+}
+
+h1 {
+  margin-left: .5em;
+  color: #881100;
+}
+
+h2 {
+  margin-left: .75em;
+  color: #118800;
+}
+
+h3 {
+  color: #6b84a2;
+  margin-top: 0;
+}
+
+.block {
+  background-color: #f4f4f4;
+  border-bottom: solid 2px #777777;
+  margin: 0 0 20px 40px;
+  padding: 20px;
+}
+
+.wrapper {
+  width: 800px;
+  background: #fff;
+  padding: 10px 50px 10px 10px;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 3em;
 }
 
 form div.field {
@@ -18,10 +54,34 @@ form div.field input, form div.field textarea {
 }
 
 form input[type=submit] {
-  margin-top: 1em;
-  margin-left: 180px;
+  margin: .5em 0;
 }
 
 .hint {
   color: #e1e1e1;
+}
+
+.output {
+  background-color: #fcc;
+  border-bottom: solid 2px #777777;
+  margin: 0 0 20px 40px;
+  padding: 20px;
+}
+
+.author {
+  position: absolute;
+  bottom: 1em;
+  right: 10px;
+  margin-top:2em;
+  color: #00f;
+}
+
+pre {
+  line-height: 16px;
+  padding: 5px 5px 5px 10px;
+  margin: 10px 0;
+  background-color: #e4f4d4;
+  border-left: solid 5px #9EC45F;
+  overflow: auto;
+  tab-size: 4;
 }

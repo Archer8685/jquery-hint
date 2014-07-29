@@ -35,13 +35,14 @@
         return query_string;
       };
       $(function() {
+        
         var params = getUrlParams();
         var p = "";
         for (var i in params) {
           p += "[" + i + "]" + " => " + params[i] + "<br />";
         }
         if (p) {
-          $("#hintForm").before("<h3>DATA</h3>" + p);
+          $("div.output h3").after(p);
         }
         
         $("input, textarea").hint({
@@ -51,12 +52,25 @@
     </script>
 </head>
 <body> 
-  <h1>Hint jQuery Plugin</h1>
-  <form id="hintForm" name="hintForm" method="get">
-    <div class="field"><span>Input:</span><input type="text"  name="input" value="" hint="typing your name." /></div>
-    <div class="field"><span>Textarea:</span><textarea rows="8" cols="40" name="textarea" hint="typing your suggest.\n\nThis is text.\nThis is text.\nThis is text.\nThis is text.\nThis is text.\nThis is text."></textarea></div>
-    <input type="submit" value="Send" />
-  </form>
-  <div style="margin-top:1em;">-- <a href="https://github.com/Archer8685" title="Archer Hsieh, front-end developer" target="_blank">Archer Hsieh</a></div>
+  <div class="wrapper">
+    <h1>Hint jQuery Plugin</h1>
+    <h2>Examples:</h2>
+    <form id="hintForm" name="hintForm" method="get">
+      <div class="block">
+        <h3>Basic</h3>
+        <div class="field"><input type="text"  name="input" value="" hint="typing your name." /></div>
+        <div class="field"><textarea rows="8" cols="40" name="textarea" hint="typing your suggest.\n\nThis is text.\nThis is text.\nThis is text.\nThis is text.\nThis is text.\nThis is text."></textarea></div>
+        <input type="submit" value="Submit" />
+        <pre>
+$("input, textarea").hint({
+  hintClass: "hint"
+});</pre>
+      </div>
+      <div class="output">
+        <h3>Result</h3>
+      </div>
+    </form>
+    <div class="author">-- <a href="https://github.com/Archer8685" title="Archer Hsieh, front-end developer" target="_blank">Archer Hsieh</a></div>
+  </div>
 </body>
 </html>
