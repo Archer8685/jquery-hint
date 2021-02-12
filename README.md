@@ -7,18 +7,18 @@ Hint v0.2.1
 - 13/06/2014:remove initStyle, hintStyle options and add hintClass option.
 - 21/04/2014:release.
 
-## How to Use It
-###javascript
-``` javascript
-$("input, textarea").hint();
-```
-###html
-just add `shuttle_select` in class and set `multiple` to your select.
+## How to Use It?
+### First, in your HTML
+Just add `shuttle_select` in class and set `multiple` to your select.
 ```
 <input type="text"  name="input" value="" hint="typing your name." />
 ```
 ```
 <textarea rows="8" cols="40" name="textarea" hint="typing your suggest.\n\nThis is text.."></textarea>
+```
+### Then, the Javascript/jQuery 
+``` javascript
+$("input, textarea").hint();
 ```
 ## API
 ### Options
